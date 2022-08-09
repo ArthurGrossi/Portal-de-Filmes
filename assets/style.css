@@ -1,0 +1,64 @@
+@import url(fonts.css);
+@import url(header/header.css);
+@import url(footer/footer.css);
+
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 20px 25px;
+    width: 100%;
+}
+
+body{
+    background-color: #252424;
+    color: aliceblue;
+    font-family: 'Raleway', sans-serif;
+}
+
+.stars{
+    display: flex;
+}
+
+.stars li{
+    display: flex;
+}
+
+.avaliacao-div{
+    display: flex;
+}
+
+.button-button{
+    background-color: #676869;
+    border-radius: 20px;
+    box-shadow: 0px 0px 12px 1px #141414
+}
+
+.button-button:hover{
+    transform: scale(1.05);
+    transition: transform ease 0.2s;
+}
+
+.grid-1 {
+    display: grid !important;
+}
+
+.none {
+    display: none;
+}
+
+.block{
+    display: block;
+
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    background: #4a4a4a;
+    
+}
+::-webkit-scrollbar-thumb{
+    background: #9233338c;
+    border-radius: 30px;
+}

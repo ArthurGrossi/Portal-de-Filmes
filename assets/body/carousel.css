@@ -1,0 +1,54 @@
+.lançamentos{
+    background-color: #252424;
+    width: 100%;
+}
+
+.trailer{
+    margin: auto;
+}
+
+#lançamentos-title{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+.carousel-meu{
+    max-width: 100%;
+    background-color: #252424;
+    color: aliceblue;
+}
+
+.grid-carousel{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    max-width: 1000px;
+    margin:0 auto 50px;
+    grid-gap: 50px
+}
+
+.flex-info{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-info p{
+    font-size: small;
+}
+
+.elenco {
+    font-size: small;
+
+}
+
+@media screen and (max-width: 1024px) { 
+    .grid-carousel{
+        grid-template-columns: 1fr;
+    }
+
+    .trailer-information{
+        margin-inline: 20px;
+    }
+}

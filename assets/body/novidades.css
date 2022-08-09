@@ -1,0 +1,140 @@
+#novidades-title{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+.sobre-titulo{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+.editorial-titulo{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+.redes-sociais-titulo{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+.grid-main{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    max-width: 1000px;
+    margin: 0 auto;
+    grid-gap: 40px
+}
+
+.img-size{
+    width: 150%;
+    margin: 25px;
+}
+
+.img-size:hover{
+    transform: scale(1.05);
+    transition: transform ease 0.2s;
+}
+
+.novidade-card{
+    display: flex;
+}
+
+.noticia-title h3{
+    display: flex;
+    justify-content: center;
+    font-size: medium;
+    margin-top: 15px;
+}
+
+.noticia-content p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-size: small;
+}
+
+.tags-noticias{
+    color: #992e2e;
+    padding: 3px 5px;
+    background-color: #333333;
+    border-radius: 4px 0px 4px 0px;
+    margin-right: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.flex-tags{
+    display: flex;
+}
+
+@media screen and (max-width:900px){
+    .img-size{
+        width: 200%;
+    }
+    
+    .flex-tags div{
+        width: 10%;
+    }
+}
+
+.icons-size{
+    display: flex;
+    justify-content: left;
+}
+
+.icons-size a i{
+    font-size: 40px;
+    color: aliceblue;
+    margin-right: 15px;
+}
+
+.editorial-authors div{
+    font-size: 18px;
+}
+
+.novidade-card:hover{
+    transform: scale(1.1);
+    transition: transform ease 0.4s;
+
+}
+
+.sugestoes h5{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    color: #992e2e;
+    text-decoration: underline;
+}
+
+.sugestoes h5:hover{
+    color: #6a1d1d;
+    text-decoration: underline;
+    transform: scale(1.1);
+    transition: transform ease 0.4s;
+}
+
+hr{
+    border: 2px solid #992e2e;
+    background-color: #992e2e;
+    border-radius: 2px;
+}
+
+@media screen and (max-width: 700px){
+    .grid-main{
+        display: grid;
+        grid-template-columns: 1fr;
+        max-width: 1000px;
+        margin: 0 auto;
+        grid-gap: 40px
+    }
+
+    .icons-size{
+        display: flex;
+        justify-content: center;
+    }
+}

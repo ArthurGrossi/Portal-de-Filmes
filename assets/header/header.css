@@ -1,0 +1,41 @@
+.header-section{
+    justify-content: left;
+    align-items: left;
+    width: 100%;
+}
+
+.navbar-brand img{
+    width: 100%;
+}
+
+.navbar-brand{
+    width: 60px;
+}
+
+.nav-link p{
+    font-size: 14px;
+    color: #f0f8ff;
+}
+
+.nav-link p:hover{
+    text-decoration: underline;
+    color: #d2e1ed;
+}
+
+.sugestao-header p{
+    font-size: 14px;
+    color: #9a2121;
+    animation: move 2s linear infinite;
+}
+
+.sugestao-header p:hover{
+    text-decoration: underline;
+    color: #6a1d1d;
+    
+}
+
+@keyframes move{
+    50%{
+        color: #ff6600e0;
+    }
+}
